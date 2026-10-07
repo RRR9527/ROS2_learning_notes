@@ -1,0 +1,30 @@
+# ===== ROS2 / colcon 编译产物 =====
+**/build/
+**/install/
+**/log/
+
+# ===== CMake 源码内构建残留 =====
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CTestTestfile.cmake
+
+# ===== C/C++ 编译产物 =====
+*.o
+*.so
+*.a
+
+# 手写 Makefile 编译出的可执行文件
+chapt2/basic/first_node
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+
+# ===== IDE / 编辑器 =====
+.vscode/
+.idea/
+
+# ===== 系统文件 =====
+.DS_Store
+Thumbs.db

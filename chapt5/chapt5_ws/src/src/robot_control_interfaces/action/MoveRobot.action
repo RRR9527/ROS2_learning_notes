@@ -1,0 +1,9 @@
+float32 distance
+---
+float32 pose
+---
+float32 pose
+int32 status
+
+int32 STATUS_STOP = 0
+int32 STATUS_MOVEING = 1
